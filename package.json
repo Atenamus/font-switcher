@@ -1,8 +1,8 @@
 {
-  "name": "font-switcher",
-  "displayName": "Font Switcher",
+  "name": "font-select",
+  "displayName": "Font Select",
   "description": "a extension to switch between system installed fonts",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.100.0"
   },
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "font-switcher.selectFont",
+        "command": "font-selector.selectFont",
         "title": "Select Font"
       }
     ]

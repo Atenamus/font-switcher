@@ -5,7 +5,7 @@ let cachedFont: string[] = [];
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
-    "font-switcher.selectFont",
+    "font-selector.selectFont",
     async () => {
       try {
         const fonts = await getInstalledFonts();
